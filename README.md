@@ -9,7 +9,7 @@ lt_e=enumerate(lt_bal,1)
 def earnings():      
 >>>>global balance  
 >>>>balance+=650  
-def transform():  
+  def transform():  
 >>>>global balance,tfd  
 >>>>generator=np.random.RandomState(0)  
 >>>>tfd=generator.normal(116,0.6,days)  
