@@ -8,8 +8,8 @@ balance=650    #总余额
 lt_bal=[650]    #每日余额所构成的数列  
 lt_e=enumerate(lt_bal,1)  
 def earnings():      
--   global balance  
--   balance+=650  
+|   global balance  
+balance+=650  
 def transform():  
 global balance,tfd  
 generator=np.random.RandomState(0)  
